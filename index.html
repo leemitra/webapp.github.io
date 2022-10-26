@@ -15,7 +15,17 @@
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
-    
+    <script>
+//const output = document.querySelector('.output');
+const url="https://docs.google.com/spreadsheets/d/1POC0XmIdekVLAmCaI-ibx75IxKuqYMQjrHXEZdj3dfQ/gviz/tq?"; 
+//const endpoint='';
+//output.textContent=url;
+fetch(url).then(res=> res.text())
+.then(data =>{
+console.log(data);
+});
+
+      </script>
   </head>
   <body>    
     <!-- Hero section -->
